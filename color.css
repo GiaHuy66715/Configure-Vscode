@@ -1,0 +1,132 @@
+.mtk15 {
+    color: transparent;
+    background-image: linear-gradient( 
+111.6deg
+, rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 112.7% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk5 {
+    color: transparent;
+    /* background-image: linear-gradient(to right, #B3FFAB, #12fff7); */
+    background-image: linear-gradient(to right top, #AAFFA9, #11ffbd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.mtk3 {
+    color: transparent;
+    background-image: linear-gradient(to right top, #c29ffd, #ffb4dc, #fef0d1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk10 {
+    color: transparent;
+    background-image: linear-gradient(90.1deg,  rgba(255,85,85,1) 0.1%, rgba(85,85,255,1) 100% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.mtk7 {
+    color: transparent;
+    background-image: linear-gradient(to right bottom, #fc6c8f, #ffb86c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk17 {
+    color: transparent;
+    background-image: linear-gradient(to right bottom, #0072ff, #2cccff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.mtk9 {
+    color: transparent;
+    background-image: linear-gradient(to right bottom, #0072ff, #2cccff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.mtk16 {
+    color: transparent;
+    background-image: linear-gradient(to right top, #9a86fd, #6a5af9);
+    background-image: linear-gradient(45deg, #d66efd, #6a5af9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.mtk18 {
+    color: transparent;
+    background-image: linear-gradient(90deg, #82aaff 50%, #3d6ef7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-style: normal;
+    font-weight: bolder;
+  }
+
+/* Other */
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-item.checked
+  .active-item-indicator:before {
+  border: 0;
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #fc6c8f, #ff2ced);
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-image: linear-gradient(to left, #fc6c8f, #ff2ced);
+  height: 3px;
+}
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .badge
+  .badge-content {
+  background-image: linear-gradient(90deg, #fc6c8f, #ff2ced);
+}
+.monaco-editor .cursors-layer .cursor {
+    background-image: linear-gradient(
+        45deg,
+        #6a5af9,
+        #ff2ced,
+        #ffb4dc,
+        #fc6c8f,
+        #ffb86c
+    );
+}

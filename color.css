@@ -1,8 +1,10 @@
 .mtk15 {
     color: transparent;
-    background-image: linear-gradient( 
-111.6deg
-, rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 112.7% );
+    background-image: linear-gradient(
+        111.6deg,
+        rgba(174, 68, 223, 1) 27.3%,
+        rgba(246, 135, 135, 1) 112.7%
+    );
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: bolder;
@@ -11,19 +13,18 @@
 
 .mtk5 {
     color: transparent;
-    /* background-image: linear-gradient(to right top, #AAFFA9, #11ffbd); */
-    background-image: linear-gradient(135deg, #69FF97 10%, #00E4FF 100%);
+    background-image: linear-gradient(135deg, #69ff97 10%, #00e4ff 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
+    font-style: italic;
 }
 
 .mtk3 {
     color: transparent;
-    /* background-image: linear-gradient(to right top, #c29ffd, #ffb4dc, #fef0d1); */
-    /* background-image: linear-gradient(to right, #ea8d8d, #a890fe); */
-    background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%);
+    /* background-image: linear-gradient(135deg, #5efce8 10%, #736efe 100%); */
+    background-image: linear-gradient(to left bottom, #5efce8, #736efe);
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: bolder;
@@ -32,7 +33,6 @@
 
 .mtk10 {
     color: transparent;
-    /* background-image: linear-gradient(90.1deg,  rgba(255,85,85,1) 0.1%, rgba(85,85,255,1) 100% ); */
     background-image: linear-gradient(to right, #ea8d8d, #a890fe);
     -webkit-background-clip: text;
     background-clip: text;
@@ -55,15 +55,17 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
+    font-family: "Fira Code";
+    font-size: 91.6%;
 }
 
 .mtk9 {
     color: transparent;
-    /* background-image: linear-gradient(to right bottom, #0072ff, #2cccff); */
-    /* background-image: linear-gradient(135deg, #FFF3B0 10%, #CA26FF 100%); */
-    background-image: linear-gradient( 
-100.5deg
-, rgba(148,146,236,1) 17.7%, rgba(245,194,194,1) 76.1% );
+    background-image: linear-gradient(
+        100.5deg,
+        rgba(148, 146, 236, 1) 17.7%,
+        rgba(245, 194, 194, 1) 76.1%
+    );
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -80,52 +82,95 @@
     font-weight: bolder;
 }
 
+.mtk1,
 .mtk18 {
     color: transparent;
-    background-image: linear-gradient(90deg, #82aaff 50%, #3d6ef7);
+    background-image: linear-gradient(to right top, #c29ffd, #ffb4dc, #fef0d1);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-style: normal;
     font-weight: bolder;
-  }
+    font-style: italic;
+}
 
+.mtk14, 
+.mtk24,
+.monaco-editor .bracket-highlighting-0,
+.monaco-editor .bracket-highlighting-1,
+.monaco-editor .bracket-highlighting-2,
+.monaco-editor .bracket-highlighting-3,
+.monaco-editor .bracket-highlighting-4,
+.monaco-editor .bracket-highlighting-5,
+.monaco-editor .bracket-highlighting-6,
+.monaco-editor .bracket-highlighting-7,
+.monaco-editor .bracket-highlighting-8,
+.monaco-editor .bracket-highlighting-9,
+.monaco-editor .bracket-highlighting-10 {
+    font-family: "SF Mono";
+    font-size: 89%;
+    font-style: normal;
+}
+
+.monaco-editor .bracket-highlighting-0,
+.monaco-editor .bracket-highlighting-3,
+.monaco-editor .bracket-highlighting-6,
+.monaco-editor .bracket-highlighting-9 {
+    background-image: linear-gradient(to right, #ffd700, #ffd700);
+}
+
+.monaco-editor .bracket-highlighting-1,
+.monaco-editor .bracket-highlighting-4,
+.monaco-editor .bracket-highlighting-7, 
+.monaco-editor .bracket-highlighting-10 {
+    background-image: linear-gradient(to right, #da70d6, #da70d6);
+    /* background-image: linear-gradient(to right, #179fff, #179fff); */
+}
+
+/* .monaco-editor .bracket-highlighting-2 {
+    background-image: linear-gradient(to right, #179fff, #179fff);
+    background-image: linear-gradient(to right, #da70d6, #da70d6);
+} */
+
+.hc-black .colorpicker-color-decoration, .vs-dark .colorpicker-color-decoration {
+    display: none;
+    transform: translate();
+}
 /* Other */
 .monaco-workbench
-  .activitybar
-  > .content
-  :not(.monaco-menu)
-  > .monaco-action-bar
-  .action-item.checked
-  .active-item-indicator:before {
-  border: 0;
-  width: 3px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: linear-gradient(to bottom, #fc6c8f, #ff2ced);
+    .activitybar
+    > .content
+    :not(.monaco-menu)
+    > .monaco-action-bar
+    .action-item.checked
+    .active-item-indicator:before {
+    border: 0;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, #fc6c8f, #ff2ced);
 }
 
 .monaco-workbench
-  .part.editor
-  > .content
-  .editor-group-container
-  > .title
-  .tabs-container
-  > .tab.active.tab-border-top
-  > .tab-border-top-container {
-  background-image: linear-gradient(to left, #fc6c8f, #ff2ced);
-  height: 3px;
+    .part.editor
+    > .content
+    .editor-group-container
+    > .title
+    .tabs-container
+    > .tab.active.tab-border-top
+    > .tab-border-top-container {
+    background-image: linear-gradient(to left, #fc6c8f, #ff2ced);
+    height: 3px;
 }
 .monaco-workbench
-  .activitybar
-  > .content
-  :not(.monaco-menu)
-  > .monaco-action-bar
-  .badge
-  .badge-content {
-  background-image: linear-gradient(90deg, #fc6c8f, #ff2ced);
+    .activitybar
+    > .content
+    :not(.monaco-menu)
+    > .monaco-action-bar
+    .badge
+    .badge-content {
+    background-image: linear-gradient(90deg, #fc6c8f, #ff2ced);
 }
 .monaco-editor .cursors-layer .cursor {
     background-image: linear-gradient(
